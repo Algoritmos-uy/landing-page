@@ -1,0 +1,90 @@
+.light-mode .hero {
+    background: url("hero-bg-light.jpg") no-repeat center center/cover;
+}
+
+.dark-mode .hero {
+    background: url("hero-bg-dark.jpg") no-repeat center center/cover;
+}
+
+/* Estilos del botón de cambio de tema */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #f39c12; /* Color del icono */
+    transition: color 0.3s ease;
+}
+
+.theme-toggle:hover {
+    color: #e67e22; /* Cambia el color al hacer hover */
+}
+
+/* Modo Light (por defecto) */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.light-mode header {
+    background-color: #333;
+    color: #fff;
+}
+
+.light-mode .navbar{
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.light-mode .hero {
+    background: url("hero-bg.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+.light-mode .feature-item,
+.light-mode .pricing-item {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.light-mode .cta {
+    background-color: #333;
+    color: #fff;
+}
+
+.light-mode footer {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Modo Dark */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+}
+
+.dark-mode header {
+    background-color: #111;
+    color: #f4f4f4;
+}
+
+.dark-mode .hero {
+    background: url("hero-bg-dark.jpg") no-repeat center center/cover;
+    color: #f4f4f4;
+}
+
+.dark-mode .feature-item,
+.dark-mode .pricing-item {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.dark-mode .cta {
+    background-color: #111;
+    color: #f4f4f4;
+}
+
+.dark-mode footer {
+    background-color: #000;
+    color: #f4f4f4;
+}
