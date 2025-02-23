@@ -31,11 +31,6 @@ body.light-mode {
     color: #fff;
 }
 
-.light-mode .navbar{
-    background-color: #ffffff;
-    color: #333333;
-}
-
 .light-mode .hero {
     background: url("hero-bg.jpg") no-repeat center center/cover;
     color: #fff;
@@ -51,6 +46,10 @@ body.light-mode {
     background-color: #333;
     color: #fff;
 }
+.dark-mode .testimonial-item{
+    background-color: #333;
+    color: #f4f4f4;
+} 
 
 .light-mode footer {
     background-color: #222;
